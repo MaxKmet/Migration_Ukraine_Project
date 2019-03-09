@@ -1,5 +1,7 @@
+import csv
 import requests
 import json
+from io import StringIO
 
 
 def get_datagovua_data(package_id):
@@ -19,11 +21,20 @@ def get_datagovua_data(package_id):
     req2 = json.loads(r2.text)
 
     dataset_link = req2['result']['url']
-
     r3 = requests.get(dataset_link)
+
     return r3.text
 
 
 if __name__ == "__main__":
     package_id = "338a8ccf-8b77-476b-b138-9bb5b7550584"
-    print(get_datagovua_data(package_id))
+    sdata = get_datagovua_data(package_id)
+
+    data = []
+    f = StringIO(sdata)
+    reader = csv.reader(f, delimiter=',')
+    for row in reader:
+        data.append(row)
+
+    for row in data:
+        print(row)
