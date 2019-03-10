@@ -2,6 +2,7 @@ import csv
 import requests
 import json
 from io import StringIO
+import  matplotlib.pyplot as plt
 
 
 def get_datagovua_data(package_id):
@@ -38,3 +39,10 @@ if __name__ == "__main__":
 
     for row in data:
         print(row)
+    increase_ind = [3 + (3 * i) for i in range(8)]
+    print(increase_ind)
+    ua_migration_increase = [int(data[2][i]) for i in increase_ind]
+    print(ua_migration_increase)
+
+    plt.plot(list(range(len(ua_migration_increase))), ua_migration_increase)
+    plt.show()
