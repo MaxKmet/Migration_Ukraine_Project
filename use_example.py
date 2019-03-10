@@ -2,7 +2,9 @@ import csv
 import requests
 import json
 from io import StringIO
-import  matplotlib.pyplot as plt
+import matplotlib.pyplot as plt
+import folium
+
 
 
 def get_datagovua_data(package_id):
@@ -26,6 +28,31 @@ def get_datagovua_data(package_id):
 
     return r3.text
 
+def rgb_to_hex(rgb):
+    '''
+
+    :param rgb: tuple
+    :return: str
+    '''
+    return '#%02x%02x%02x' % rgb
+
+def generate_map(value_dict):
+    '''
+    :param value_dict: key - tuple (lat, long) val - num
+    :return: html-map
+    '''
+
+    map_ua = folium.Map()
+    fg = folium.FeatureGroup(name="Map of Ukraine")
+    for key in value_dict.keys():
+        fg.add_child(folium.CircleMarker(location=key,
+                                                radius=10,
+                                                popup=', '.join(value_dict[key]),
+                                                fill_color="green",
+                                                color="green",
+                                                fill_opacity=0.5))
+    map_ua.add_child(fg)
+    return map_ua.get_root().render()
 
 if __name__ == "__main__":
     package_id = "338a8ccf-8b77-476b-b138-9bb5b7550584"
@@ -46,3 +73,6 @@ if __name__ == "__main__":
 
     plt.plot(list(range(len(ua_migration_increase))), ua_migration_increase)
     plt.show()
+
+
+
