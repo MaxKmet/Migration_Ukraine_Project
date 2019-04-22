@@ -2,10 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="91bd57d9-02ec-4756-aa60-e51c4d93f412" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/ukrainian_data_adt.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ukrainian_data_uml_classes.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ukrainian_data_example.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/use_example.py" beforeDir="false" afterPath="$PROJECT_DIR$/use_example.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/example_map.html" beforeDir="false" afterPath="$PROJECT_DIR$/example_map.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ukrainian_data_adt.py" beforeDir="false" afterPath="$PROJECT_DIR$/ukrainian_data_adt.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -27,11 +27,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/ukrainian_data_adt.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="154">
-              <caret line="235" column="6" selection-start-line="235" selection-start-column="6" selection-end-line="235" selection-end-column="6" />
+            <state relative-caret-position="3961">
+              <caret line="233" selection-start-line="233" selection-end-line="233" />
               <folding>
                 <element signature="e#0#15#0" expanded="true" />
               </folding>
@@ -39,21 +39,27 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/example_map.html">
-          <provider selected="true" editor-type-id="text-editor" />
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="306">
+              <caret line="18" column="66" lean-forward="true" selection-start-line="18" selection-start-column="66" selection-end-line="18" selection-end-column="66" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ukrainian_data_example.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="255">
+              <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
+            </state>
+          </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/ukrainian_data_uml_classes.png">
           <provider selected="true" editor-type-id="images" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/new.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-3927" />
-          </provider>
         </entry>
       </file>
     </leaf>
@@ -75,6 +81,7 @@
         <option value="$PROJECT_DIR$/api_use_example.py" />
         <option value="$PROJECT_DIR$/use_example.py" />
         <option value="$PROJECT_DIR$/ukrainian_data_adt.py" />
+        <option value="$PROJECT_DIR$/ukrainian_data_example.py" />
       </list>
     </option>
   </component>
@@ -122,7 +129,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.ukrainian_data_adt">
+  <component name="RunManager" selected="Python.ukrainian_data_example">
     <configuration name="api_use_example" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="Coursework" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -165,6 +172,27 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="ukrainian_data_example" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="Coursework" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/ukrainian_data_example.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="use_example" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="Coursework" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -188,6 +216,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.ukrainian_data_example" />
         <item itemvalue="Python.ukrainian_data_adt" />
         <item itemvalue="Python.use_example" />
         <item itemvalue="Python.api_use_example" />
@@ -219,7 +248,14 @@
       <option name="project" value="LOCAL" />
       <updated>1552232789614</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="third stage">
+      <created>1555942610441</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1555942610441</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -247,7 +283,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="second stage" />
-    <option name="LAST_COMMIT_MESSAGE" value="second stage" />
+    <MESSAGE value="third stage" />
+    <option name="LAST_COMMIT_MESSAGE" value="third stage" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/use_example.py">
@@ -268,18 +305,29 @@
     <entry file="file://$PROJECT_DIR$/ukrainian_data_uml_classes.png">
       <provider selected="true" editor-type-id="images" />
     </entry>
+    <entry file="file://$PROJECT_DIR$/example_map.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="18" column="66" lean-forward="true" selection-start-line="18" selection-start-column="66" selection-end-line="18" selection-end-column="66" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ukrainian_data_example.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/ukrainian_data_adt.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="154">
-          <caret line="235" column="6" selection-start-line="235" selection-start-column="6" selection-end-line="235" selection-end-column="6" />
+        <state relative-caret-position="3961">
+          <caret line="233" selection-start-line="233" selection-end-line="233" />
           <folding>
             <element signature="e#0#15#0" expanded="true" />
           </folding>
         </state>
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/example_map.html">
-      <provider selected="true" editor-type-id="text-editor" />
     </entry>
   </component>
 </project>
