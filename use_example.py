@@ -38,6 +38,7 @@ def rgb_to_hex(rgb):
 
 def generate_map(value_dict):
     '''
+
     :param value_dict: key - tuple (lat, long) val - num
     :return: html-map
     '''
@@ -53,6 +54,7 @@ def generate_map(value_dict):
                                                 fill_opacity=0.5))
     map_ua.add_child(fg)
     return map_ua.get_root().render()
+
 
 if __name__ == "__main__":
     package_id = "338a8ccf-8b77-476b-b138-9bb5b7550584"
