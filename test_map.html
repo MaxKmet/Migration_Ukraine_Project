@@ -1,0 +1,1156 @@
+<!DOCTYPE html>
+<head>    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    <script>L_PREFER_CANVAS=false; L_NO_TOUCH=false; L_DISABLE_3D=false;</script>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.4.0/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.4.0/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://rawcdn.githack.com/python-visualization/folium/master/folium/templates/leaflet.awesome.rotate.css"/>
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    
+    <meta name="viewport" content="width=device-width,
+        initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+    <style>#map_6962aea0b7f44f2c8d48556a1146be5a {
+        position: relative;
+        width: 100.0%;
+        height: 100.0%;
+        left: 0.0%;
+        top: 0.0%;
+        }
+    </style>
+</head>
+<body>    
+    
+    <div class="folium-map" id="map_6962aea0b7f44f2c8d48556a1146be5a" ></div>
+</body>
+<script>    
+    
+    
+        var bounds = null;
+    
+
+    var map_6962aea0b7f44f2c8d48556a1146be5a = L.map(
+        'map_6962aea0b7f44f2c8d48556a1146be5a', {
+        center: [0, 0],
+        zoom: 1,
+        maxBounds: bounds,
+        layers: [],
+        worldCopyJump: false,
+        crs: L.CRS.EPSG3857,
+        zoomControl: true,
+        });
+
+
+    
+    var tile_layer_15ad0813a1164a42b200a3efb55e4c52 = L.tileLayer(
+        'https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png',
+        {
+        "attribution": null,
+        "detectRetina": false,
+        "maxNativeZoom": 18,
+        "maxZoom": 18,
+        "minZoom": 0,
+        "noWrap": false,
+        "opacity": 1,
+        "subdomains": "abc",
+        "tms": false
+}).addTo(map_6962aea0b7f44f2c8d48556a1146be5a);
+    
+            var feature_group_eb64be3e2acb424f91bc5a22b427f537 = L.featureGroup(
+                ).addTo(map_6962aea0b7f44f2c8d48556a1146be5a);
+        
+    
+            var circle_marker_e49848a4cf05499681226481c67003c8 = L.circleMarker(
+                [49.02689837500003, 31.374926053000024],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#-ab3-ab3ff",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#-ab3-ab3ff",
+  "fillOpacity": 1.0,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 10,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(feature_group_eb64be3e2acb424f91bc5a22b427f537);
+            
+    
+            var popup_f4426f06b3e54aa8a7d8f852fabef192 = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_8097f7a2150049879efdf412efffad9a = $(`<div id="html_8097f7a2150049879efdf412efffad9a" style="width: 100.0%; height: 100.0%;">Ukra¿na : 683449</div>`)[0];
+                popup_f4426f06b3e54aa8a7d8f852fabef192.setContent(html_8097f7a2150049879efdf412efffad9a);
+            
+
+            circle_marker_e49848a4cf05499681226481c67003c8.bindPopup(popup_f4426f06b3e54aa8a7d8f852fabef192)
+            ;
+
+            
+        
+    
+            var circle_marker_8b9240fe2a384dbb93b87c4ce8275953 = L.circleMarker(
+                [49.02689837500003, 31.374926053000024],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#-a18-a18ff",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#-a18-a18ff",
+  "fillOpacity": 1.0,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 10,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(feature_group_eb64be3e2acb424f91bc5a22b427f537);
+            
+    
+            var popup_ff2fe0e8e67740bb93d1f1fa3754c8d9 = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_e1bd998cb2bc44a5b4d3dbc0a241cb35 = $(`<div id="html_e1bd998cb2bc44a5b4d3dbc0a241cb35" style="width: 100.0%; height: 100.0%;">Ukra¿na* : 647927</div>`)[0];
+                popup_ff2fe0e8e67740bb93d1f1fa3754c8d9.setContent(html_e1bd998cb2bc44a5b4d3dbc0a241cb35);
+            
+
+            circle_marker_8b9240fe2a384dbb93b87c4ce8275953.bindPopup(popup_ff2fe0e8e67740bb93d1f1fa3754c8d9)
+            ;
+
+            
+        
+    
+            var circle_marker_b93ebf4debcc4d4da672d3696812a0eb = L.circleMarker(
+                [45.31252635800007, 34.35017875300008],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#7b7bff",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#7b7bff",
+  "fillOpacity": 1.0,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 10,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(feature_group_eb64be3e2acb424f91bc5a22b427f537);
+            
+    
+            var popup_1ef79e5871be4f928da28adf38b7129a = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_0077dce6041c45ff9cd37fa3a8b0f56a = $(`<div id="html_0077dce6041c45ff9cd37fa3a8b0f56a" style="width: 100.0%; height: 100.0%;">Avtonomna Respubl³ka Krim : 30256</div>`)[0];
+                popup_1ef79e5871be4f928da28adf38b7129a.setContent(html_0077dce6041c45ff9cd37fa3a8b0f56a);
+            
+
+            circle_marker_b93ebf4debcc4d4da672d3696812a0eb.bindPopup(popup_1ef79e5871be4f928da28adf38b7129a)
+            ;
+
+            
+        
+    
+            var circle_marker_c7d38ba1e27148998f76046d76ab00ac = L.circleMarker(
+                [48.920937424000044, 28.687572060000036],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#7979ff",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#7979ff",
+  "fillOpacity": 1.0,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 10,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(feature_group_eb64be3e2acb424f91bc5a22b427f537);
+            
+    
+            var popup_ac5635dbfc154a3c8d01078ebf434a6e = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_c6a9547c6f6c4196be56730ec85d5829 = $(`<div id="html_c6a9547c6f6c4196be56730ec85d5829" style="width: 100.0%; height: 100.0%;">V³nnits'ka : 30682</div>`)[0];
+                popup_ac5635dbfc154a3c8d01078ebf434a6e.setContent(html_c6a9547c6f6c4196be56730ec85d5829);
+            
+
+            circle_marker_c7d38ba1e27148998f76046d76ab00ac.bindPopup(popup_ac5635dbfc154a3c8d01078ebf434a6e)
+            ;
+
+            
+        
+    
+            var circle_marker_61235b2d23eb481dad7455c5714ec106 = L.circleMarker(
+                [51.191078771000036, 24.871404706000078],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#b2b2ff",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#b2b2ff",
+  "fillOpacity": 1.0,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 10,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(feature_group_eb64be3e2acb424f91bc5a22b427f537);
+            
+    
+            var popup_4a71beba65ee46ddbef01e88ba8a007a = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_8dc2d88c4aba44b99269b268ef3ff5d6 = $(`<div id="html_8dc2d88c4aba44b99269b268ef3ff5d6" style="width: 100.0%; height: 100.0%;">Volins'ka : 17718</div>`)[0];
+                popup_4a71beba65ee46ddbef01e88ba8a007a.setContent(html_8dc2d88c4aba44b99269b268ef3ff5d6);
+            
+
+            circle_marker_61235b2d23eb481dad7455c5714ec106.bindPopup(popup_4a71beba65ee46ddbef01e88ba8a007a)
+            ;
+
+            
+        
+    
+            var circle_marker_23cdedd7d6e2485ab8b162b28d1d79dd = L.circleMarker(
+                [48.309701698000026, 34.85668743000008],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#3434ff",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#3434ff",
+  "fillOpacity": 1.0,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 10,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(feature_group_eb64be3e2acb424f91bc5a22b427f537);
+            
+    
+            var popup_8aeb6e20f7fc47c482864f3c85d7be89 = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_e408fd58f2a841709163f0be5e19e8e0 = $(`<div id="html_e408fd58f2a841709163f0be5e19e8e0" style="width: 100.0%; height: 100.0%;">Dn³propetrovs'ka : 46437</div>`)[0];
+                popup_8aeb6e20f7fc47c482864f3c85d7be89.setContent(html_e408fd58f2a841709163f0be5e19e8e0);
+            
+
+            circle_marker_23cdedd7d6e2485ab8b162b28d1d79dd.bindPopup(popup_8aeb6e20f7fc47c482864f3c85d7be89)
+            ;
+
+            
+        
+    
+            var circle_marker_0d388065c9734610a66abaab50cfd020 = L.circleMarker(
+                [48.047352061000026, 37.67538699900007],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#0000ff",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#0000ff",
+  "fillOpacity": 1.0,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 10,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(feature_group_eb64be3e2acb424f91bc5a22b427f537);
+            
+    
+            var popup_74d3a5fae1fb4e17a531b783a35f2ca8 = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_d2091a658b4047ab8318329beaa43943 = $(`<div id="html_d2091a658b4047ab8318329beaa43943" style="width: 100.0%; height: 100.0%;">Donets'ka** : 58195</div>`)[0];
+                popup_74d3a5fae1fb4e17a531b783a35f2ca8.setContent(html_d2091a658b4047ab8318329beaa43943);
+            
+
+            circle_marker_0d388065c9734610a66abaab50cfd020.bindPopup(popup_74d3a5fae1fb4e17a531b783a35f2ca8)
+            ;
+
+            
+        
+    
+            var circle_marker_772a963aa175458687c4a86552f9e615 = L.circleMarker(
+                [50.63987448800003, 28.47730830000006],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#9898ff",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#9898ff",
+  "fillOpacity": 1.0,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 10,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(feature_group_eb64be3e2acb424f91bc5a22b427f537);
+            
+    
+            var popup_44605738947a49d3b8813dfb2a8ff6be = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_3658b673108b42b6b001c3b85db9a584 = $(`<div id="html_3658b673108b42b6b001c3b85db9a584" style="width: 100.0%; height: 100.0%;">Zhitomirs'ka : 23543</div>`)[0];
+                popup_44605738947a49d3b8813dfb2a8ff6be.setContent(html_3658b673108b42b6b001c3b85db9a584);
+            
+
+            circle_marker_772a963aa175458687c4a86552f9e615.bindPopup(popup_44605738947a49d3b8813dfb2a8ff6be)
+            ;
+
+            
+        
+    
+            var circle_marker_43aa4936af5e45d6b478e842a65475e5 = L.circleMarker(
+                [48.40387766600003, 23.276350915000023],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#dadaff",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#dadaff",
+  "fillOpacity": 1.0,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 10,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(feature_group_eb64be3e2acb424f91bc5a22b427f537);
+            
+    
+            var popup_1b8b9e73b0a94023ae19dcff8f6b08eb = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_0469dd486f8747bfbfd9f461cb519a0c = $(`<div id="html_0469dd486f8747bfbfd9f461cb519a0c" style="width: 100.0%; height: 100.0%;">Zakarpats'ka : 8456</div>`)[0];
+                popup_1b8b9e73b0a94023ae19dcff8f6b08eb.setContent(html_0469dd486f8747bfbfd9f461cb519a0c);
+            
+
+            circle_marker_43aa4936af5e45d6b478e842a65475e5.bindPopup(popup_1b8b9e73b0a94023ae19dcff8f6b08eb)
+            ;
+
+            
+        
+    
+            var circle_marker_7e040329d4814196ad46cdc8e63b86b4 = L.circleMarker(
+                [47.26490909100005, 35.73717069400004],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#9898ff",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#9898ff",
+  "fillOpacity": 1.0,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 10,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(feature_group_eb64be3e2acb424f91bc5a22b427f537);
+            
+    
+            var popup_15eb49f7aae24a53ab12d2ebce6fc795 = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_a302c52f64494ad5afb56c1079c012e0 = $(`<div id="html_a302c52f64494ad5afb56c1079c012e0" style="width: 100.0%; height: 100.0%;">Zapor³z'ka : 23639</div>`)[0];
+                popup_15eb49f7aae24a53ab12d2ebce6fc795.setContent(html_a302c52f64494ad5afb56c1079c012e0);
+            
+
+            circle_marker_7e040329d4814196ad46cdc8e63b86b4.bindPopup(popup_15eb49f7aae24a53ab12d2ebce6fc795)
+            ;
+
+            
+        
+    
+            var circle_marker_4b4c94ffd9934c65b9cd1a8f04b6c23e = L.circleMarker(
+                [48.70117516900007, 24.61985041300005],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#b4b4ff",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#b4b4ff",
+  "fillOpacity": 1.0,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 10,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(feature_group_eb64be3e2acb424f91bc5a22b427f537);
+            
+    
+            var popup_df98337303cf402aab6002acf61d7cf0 = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_8d71f640915843c3aee78067ff054166 = $(`<div id="html_8d71f640915843c3aee78067ff054166" style="width: 100.0%; height: 100.0%;">²vano-Frank³vs'ka : 17170</div>`)[0];
+                popup_df98337303cf402aab6002acf61d7cf0.setContent(html_8d71f640915843c3aee78067ff054166);
+            
+
+            circle_marker_4b4c94ffd9934c65b9cd1a8f04b6c23e.bindPopup(popup_df98337303cf402aab6002acf61d7cf0)
+            ;
+
+            
+        
+    
+            var circle_marker_f570b9b65f8f47d39d904d1d2b60e973 = L.circleMarker(
+                [50.289860771000065, 30.446090000000027],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#8686ff",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#8686ff",
+  "fillOpacity": 1.0,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 10,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(feature_group_eb64be3e2acb424f91bc5a22b427f537);
+            
+    
+            var popup_243ca63ef5ba49d5b83f9c0f60a6a587 = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_cf4075886f2a4742b03470b2ebf79c50 = $(`<div id="html_cf4075886f2a4742b03470b2ebf79c50" style="width: 100.0%; height: 100.0%;">Ki¿vs'ka : 27815</div>`)[0];
+                popup_243ca63ef5ba49d5b83f9c0f60a6a587.setContent(html_cf4075886f2a4742b03470b2ebf79c50);
+            
+
+            circle_marker_f570b9b65f8f47d39d904d1d2b60e973.bindPopup(popup_243ca63ef5ba49d5b83f9c0f60a6a587)
+            ;
+
+            
+        
+    
+            var circle_marker_7dbe0ea19c024e84a125504e5eeb0cbb = L.circleMarker(
+                [48.46044604700006, 32.06460842000007],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#b5b5ff",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#b5b5ff",
+  "fillOpacity": 1.0,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 10,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(feature_group_eb64be3e2acb424f91bc5a22b427f537);
+            
+    
+            var popup_cf24fbde3826470782e5bb4b39a39a47 = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_4c9e038ec21a4a5b95efed9e1986a959 = $(`<div id="html_4c9e038ec21a4a5b95efed9e1986a959" style="width: 100.0%; height: 100.0%;">K³rovograds'ka : 17114</div>`)[0];
+                popup_cf24fbde3826470782e5bb4b39a39a47.setContent(html_4c9e038ec21a4a5b95efed9e1986a959);
+            
+
+            circle_marker_7dbe0ea19c024e84a125504e5eeb0cbb.bindPopup(popup_cf24fbde3826470782e5bb4b39a39a47)
+            ;
+
+            
+        
+    
+            var circle_marker_e81696f4feeb41849cedf79b219514b4 = L.circleMarker(
+                [48.98564333100006, 39.018786747000036],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#7171ff",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#7171ff",
+  "fillOpacity": 1.0,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 10,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(feature_group_eb64be3e2acb424f91bc5a22b427f537);
+            
+    
+            var popup_8b16b61cfe8240d982c0b600c81b90d3 = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_053fe4a57f2f4a098a809a9b4e682ad8 = $(`<div id="html_053fe4a57f2f4a098a809a9b4e682ad8" style="width: 100.0%; height: 100.0%;">Lugans'ka** : 32535</div>`)[0];
+                popup_8b16b61cfe8240d982c0b600c81b90d3.setContent(html_053fe4a57f2f4a098a809a9b4e682ad8);
+            
+
+            circle_marker_e81696f4feeb41849cedf79b219514b4.bindPopup(popup_8b16b61cfe8240d982c0b600c81b90d3)
+            ;
+
+            
+        
+    
+            var circle_marker_db2caea981d74b49a87d4d7e932303fa = L.circleMarker(
+                [49.71779785700005, 23.917479483000022],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#7474ff",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#7474ff",
+  "fillOpacity": 1.0,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 10,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(feature_group_eb64be3e2acb424f91bc5a22b427f537);
+            
+    
+            var popup_044b9b9405fe45e996cdef39d92d157b = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_a18fce763e184f2eabbfdaeb2fcec5d1 = $(`<div id="html_a18fce763e184f2eabbfdaeb2fcec5d1" style="width: 100.0%; height: 100.0%;">L'v³vs'ka : 31857</div>`)[0];
+                popup_044b9b9405fe45e996cdef39d92d157b.setContent(html_a18fce763e184f2eabbfdaeb2fcec5d1);
+            
+
+            circle_marker_db2caea981d74b49a87d4d7e932303fa.bindPopup(popup_044b9b9405fe45e996cdef39d92d157b)
+            ;
+
+            
+        
+    
+            var circle_marker_c0b44749fa6542ac9f5bb68cf03adec9 = L.circleMarker(
+                [47.44870459500004, 31.781263876000025],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#bcbcff",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#bcbcff",
+  "fillOpacity": 1.0,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 10,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(feature_group_eb64be3e2acb424f91bc5a22b427f537);
+            
+    
+            var popup_029b1ebc74b64d659373391f9e6494ea = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_4683056b3e2944a896da253791eee0a9 = $(`<div id="html_4683056b3e2944a896da253791eee0a9" style="width: 100.0%; height: 100.0%;">Mikola¿vs'ka : 15354</div>`)[0];
+                popup_029b1ebc74b64d659373391f9e6494ea.setContent(html_4683056b3e2944a896da253791eee0a9);
+            
+
+            circle_marker_c0b44749fa6542ac9f5bb68cf03adec9.bindPopup(popup_029b1ebc74b64d659373391f9e6494ea)
+            ;
+
+            
+        
+    
+            var circle_marker_0a95406b2c354c96b2dd9528554b3dca = L.circleMarker(
+                [47.28164945100008, 30.158224827000026],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#5959ff",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#5959ff",
+  "fillOpacity": 1.0,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 10,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(feature_group_eb64be3e2acb424f91bc5a22b427f537);
+            
+    
+            var popup_7cc74607220041c5826674ae889bea76 = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_b7840b6280c848019a1ada91e1815609 = $(`<div id="html_b7840b6280c848019a1ada91e1815609" style="width: 100.0%; height: 100.0%;">Odes'ka : 37958</div>`)[0];
+                popup_7cc74607220041c5826674ae889bea76.setContent(html_b7840b6280c848019a1ada91e1815609);
+            
+
+            circle_marker_0a95406b2c354c96b2dd9528554b3dca.bindPopup(popup_7cc74607220041c5826674ae889bea76)
+            ;
+
+            
+        
+    
+            var circle_marker_722feb96cd1a414bb22910795eef7e12 = L.circleMarker(
+                [49.75153005900006, 33.80360800500006],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#9191ff",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#9191ff",
+  "fillOpacity": 1.0,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 10,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(feature_group_eb64be3e2acb424f91bc5a22b427f537);
+            
+    
+            var popup_a1c86cec6a0a4f968cc404ec748c0c9e = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_889c121aff4749bc9490d4a1c98c35db = $(`<div id="html_889c121aff4749bc9490d4a1c98c35db" style="width: 100.0%; height: 100.0%;">Poltavs'ka : 25189</div>`)[0];
+                popup_a1c86cec6a0a4f968cc404ec748c0c9e.setContent(html_889c121aff4749bc9490d4a1c98c35db);
+            
+
+            circle_marker_722feb96cd1a414bb22910795eef7e12.bindPopup(popup_a1c86cec6a0a4f968cc404ec748c0c9e)
+            ;
+
+            
+        
+    
+            var circle_marker_e7fbaed06e4944ab85bf1105e4cfe831 = L.circleMarker(
+                [51.03982511000004, 26.392508625000062],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#aaaaff",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#aaaaff",
+  "fillOpacity": 1.0,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 10,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(feature_group_eb64be3e2acb424f91bc5a22b427f537);
+            
+    
+            var popup_7a93cdd462904da48b225896bda28280 = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_b39442a3326c4d51bfa58b23f3da73b7 = $(`<div id="html_b39442a3326c4d51bfa58b23f3da73b7" style="width: 100.0%; height: 100.0%;">R³vnens'ka : 19551</div>`)[0];
+                popup_7a93cdd462904da48b225896bda28280.setContent(html_b39442a3326c4d51bfa58b23f3da73b7);
+            
+
+            circle_marker_e7fbaed06e4944ab85bf1105e4cfe831.bindPopup(popup_7a93cdd462904da48b225896bda28280)
+            ;
+
+            
+        
+    
+            var circle_marker_45ad234f8cd849f0bbbbda77c0293a6d = L.circleMarker(
+                [51.10645759000005, 34.125212619000024],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#a2a2ff",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#a2a2ff",
+  "fillOpacity": 1.0,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 10,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(feature_group_eb64be3e2acb424f91bc5a22b427f537);
+            
+    
+            var popup_bf8b1e2500b94893869591c673729645 = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_0da3249fa7dd4f59b9b39d807e935dd3 = $(`<div id="html_0da3249fa7dd4f59b9b39d807e935dd3" style="width: 100.0%; height: 100.0%;">Sums'ka : 21385</div>`)[0];
+                popup_bf8b1e2500b94893869591c673729645.setContent(html_0da3249fa7dd4f59b9b39d807e935dd3);
+            
+
+            circle_marker_45ad234f8cd849f0bbbbda77c0293a6d.bindPopup(popup_bf8b1e2500b94893869591c673729645)
+            ;
+
+            
+        
+    
+            var circle_marker_0cb04881d80247cd92cd93490a1ee9ba = L.circleMarker(
+                [49.40322723000003, 25.649218114000064],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#c1c1ff",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#c1c1ff",
+  "fillOpacity": 1.0,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 10,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(feature_group_eb64be3e2acb424f91bc5a22b427f537);
+            
+    
+            var popup_2689b2e2b5584cd9b47b07a548494b9f = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_82619445ca8647dd9e55b6bd7a86fa57 = $(`<div id="html_82619445ca8647dd9e55b6bd7a86fa57" style="width: 100.0%; height: 100.0%;">Ternop³l's'ka : 14217</div>`)[0];
+                popup_2689b2e2b5584cd9b47b07a548494b9f.setContent(html_82619445ca8647dd9e55b6bd7a86fa57);
+            
+
+            circle_marker_0cb04881d80247cd92cd93490a1ee9ba.bindPopup(popup_2689b2e2b5584cd9b47b07a548494b9f)
+            ;
+
+            
+        
+    
+            var circle_marker_16ba938327264c09b0f9dd21659d6302 = L.circleMarker(
+                [49.61518746000007, 36.50660180800003],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#3e3eff",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#3e3eff",
+  "fillOpacity": 1.0,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 10,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(feature_group_eb64be3e2acb424f91bc5a22b427f537);
+            
+    
+            var popup_d21e8674e80a48f28a801b0ad03d441a = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_e26546e12d5149249060f7ccd881f6c6 = $(`<div id="html_e26546e12d5149249060f7ccd881f6c6" style="width: 100.0%; height: 100.0%;">Hark³vs'ka : 44096</div>`)[0];
+                popup_d21e8674e80a48f28a801b0ad03d441a.setContent(html_e26546e12d5149249060f7ccd881f6c6);
+            
+
+            circle_marker_16ba938327264c09b0f9dd21659d6302.bindPopup(popup_d21e8674e80a48f28a801b0ad03d441a)
+            ;
+
+            
+        
+    
+            var circle_marker_dc2faa96c4f6409db7917841d55f6591 = L.circleMarker(
+                [46.68104444900007, 33.56356863800005],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#bdbdff",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#bdbdff",
+  "fillOpacity": 1.0,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 10,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(feature_group_eb64be3e2acb424f91bc5a22b427f537);
+            
+    
+            var popup_83228c0d89ca44c485466081e17cf7ef = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_e4115ef2e360477d875e84d7fae5d9d8 = $(`<div id="html_e4115ef2e360477d875e84d7fae5d9d8" style="width: 100.0%; height: 100.0%;">Hersons'ka : 15063</div>`)[0];
+                popup_83228c0d89ca44c485466081e17cf7ef.setContent(html_e4115ef2e360477d875e84d7fae5d9d8);
+            
+
+            circle_marker_dc2faa96c4f6409db7917841d55f6591.bindPopup(popup_83228c0d89ca44c485466081e17cf7ef)
+            ;
+
+            
+        
+    
+            var circle_marker_94398d3c4cf246df8c7e382a2e80cdde = L.circleMarker(
+                [49.51027856800005, 26.93052394600005],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#9a9aff",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#9a9aff",
+  "fillOpacity": 1.0,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 10,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(feature_group_eb64be3e2acb424f91bc5a22b427f537);
+            
+    
+            var popup_f588357dfbc5495a8353a0fa9ab79526 = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_5e19555d51ef4f969dde7e2de242b757 = $(`<div id="html_5e19555d51ef4f969dde7e2de242b757" style="width: 100.0%; height: 100.0%;">Hmel'nits'ka : 23065</div>`)[0];
+                popup_f588357dfbc5495a8353a0fa9ab79526.setContent(html_5e19555d51ef4f969dde7e2de242b757);
+            
+
+            circle_marker_94398d3c4cf246df8c7e382a2e80cdde.bindPopup(popup_f588357dfbc5495a8353a0fa9ab79526)
+            ;
+
+            
+        
+    
+            var circle_marker_f4a7f0eaf321483aa87d3b585b0ec54d = L.circleMarker(
+                [49.25107522500008, 31.306342147000066],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#a3a3ff",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#a3a3ff",
+  "fillOpacity": 1.0,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 10,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(feature_group_eb64be3e2acb424f91bc5a22b427f537);
+            
+    
+            var popup_b655347c4bd942c99cb0cc152fd39663 = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_c2ceca604b664464851cb921d1c15392 = $(`<div id="html_c2ceca604b664464851cb921d1c15392" style="width: 100.0%; height: 100.0%;">Cherkas'ka : 21205</div>`)[0];
+                popup_b655347c4bd942c99cb0cc152fd39663.setContent(html_c2ceca604b664464851cb921d1c15392);
+            
+
+            circle_marker_f4a7f0eaf321483aa87d3b585b0ec54d.bindPopup(popup_b655347c4bd942c99cb0cc152fd39663)
+            ;
+
+            
+        
+    
+            var circle_marker_11db43595f1d47e88d3ad43360f115ce = L.circleMarker(
+                [48.265957395000044, 25.971199589000037],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#d0d0ff",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#d0d0ff",
+  "fillOpacity": 1.0,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 10,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(feature_group_eb64be3e2acb424f91bc5a22b427f537);
+            
+    
+            var popup_9a52b92c706144b4afc295722d229b61 = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_ac27b1baf90748e28dadfde059454dd9 = $(`<div id="html_ac27b1baf90748e28dadfde059454dd9" style="width: 100.0%; height: 100.0%;">Chern³vets'ka : 10805</div>`)[0];
+                popup_9a52b92c706144b4afc295722d229b61.setContent(html_ac27b1baf90748e28dadfde059454dd9);
+            
+
+            circle_marker_11db43595f1d47e88d3ad43360f115ce.bindPopup(popup_9a52b92c706144b4afc295722d229b61)
+            ;
+
+            
+        
+    
+            var circle_marker_f969530c6bf541a2bc1f320480a87682 = L.circleMarker(
+                [51.35621467900006, 32.01080146100003],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#afafff",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#afafff",
+  "fillOpacity": 1.0,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 10,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(feature_group_eb64be3e2acb424f91bc5a22b427f537);
+            
+    
+            var popup_f65469ed84b24bc0b4fc25e238db62db = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_de287b049eb44b1ea2fb3c4926db0e77 = $(`<div id="html_de287b049eb44b1ea2fb3c4926db0e77" style="width: 100.0%; height: 100.0%;">Chern³g³vs'ka : 18286</div>`)[0];
+                popup_f65469ed84b24bc0b4fc25e238db62db.setContent(html_de287b049eb44b1ea2fb3c4926db0e77);
+            
+
+            circle_marker_f969530c6bf541a2bc1f320480a87682.bindPopup(popup_f65469ed84b24bc0b4fc25e238db62db)
+            ;
+
+            
+        
+    
+            var circle_marker_e2f9d85deb434010902172db33265f50 = L.circleMarker(
+                [50.45056000000005, 30.524280000000033],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#3333ff",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#3333ff",
+  "fillOpacity": 1.0,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 10,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(feature_group_eb64be3e2acb424f91bc5a22b427f537);
+            
+    
+            var popup_5111c31537174285b8dc118fb17b2f52 = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_f3fad0717264492ab443e2534c0ae5fa = $(`<div id="html_f3fad0717264492ab443e2534c0ae5fa" style="width: 100.0%; height: 100.0%;">m. Ki¿v : 46592</div>`)[0];
+                popup_5111c31537174285b8dc118fb17b2f52.setContent(html_f3fad0717264492ab443e2534c0ae5fa);
+            
+
+            circle_marker_e2f9d85deb434010902172db33265f50.bindPopup(popup_5111c31537174285b8dc118fb17b2f52)
+            ;
+
+            
+        
+    
+            var circle_marker_25a8cbbde4ad4c5198e267ddf875c9e1 = L.circleMarker(
+                [44.605270000000075, 33.52729000000005],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#e8e8ff",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#e8e8ff",
+  "fillOpacity": 1.0,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 10,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(feature_group_eb64be3e2acb424f91bc5a22b427f537);
+            
+    
+            var popup_40be7b6974ca4bdaa088522a62d8db65 = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_bdd84b731221494cb4876b7a831e1503 = $(`<div id="html_bdd84b731221494cb4876b7a831e1503" style="width: 100.0%; height: 100.0%;">m. Sevastopol'*** : 5266</div>`)[0];
+                popup_40be7b6974ca4bdaa088522a62d8db65.setContent(html_bdd84b731221494cb4876b7a831e1503);
+            
+
+            circle_marker_25a8cbbde4ad4c5198e267ddf875c9e1.bindPopup(popup_40be7b6974ca4bdaa088522a62d8db65)
+            ;
+
+            
+        
+    
+            var layer_control_5eb231b4e6bb4e85968b83e570b3c2fc = {
+                base_layers : { "openstreetmap" : tile_layer_15ad0813a1164a42b200a3efb55e4c52, },
+                overlays : { "Map of Ukraine :Chislo pribulih 2010" : feature_group_eb64be3e2acb424f91bc5a22b427f537, }
+                };
+            L.control.layers(
+                layer_control_5eb231b4e6bb4e85968b83e570b3c2fc.base_layers,
+                layer_control_5eb231b4e6bb4e85968b83e570b3c2fc.overlays,
+                {position: 'topright',
+                 collapsed: true,
+                 autoZIndex: true
+                }).addTo(map_6962aea0b7f44f2c8d48556a1146be5a);
+            
+        
+</script>

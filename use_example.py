@@ -6,7 +6,6 @@ import matplotlib.pyplot as plt
 import folium
 
 
-
 def get_datagovua_data(package_id):
     DATASET_URL = "https://data.gov.ua/api/3/action/package_show?"
     BASE_REQUEST_URL = "https://data.gov.ua/api/3/action/resource_show?"

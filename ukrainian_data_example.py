@@ -11,5 +11,8 @@ if __name__ == "__main__":
                                           list(mig.get_column("Число прибулих 2012").values())))
     print(mig.row_names)
     print(mig.column_names)
+
+    """
     with open("example_map.html", "w") as f:
         f.write(mig.get_map("Число прибулих", 2010))
+    """

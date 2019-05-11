@@ -55,7 +55,7 @@ class UkrainianData:
                     if row[0] in data_dict.keys():
                         data_dict[row[0]][keys[ind]] = value
                     else:
-                        data_dict[row[0]] = {keys[ind]:value}
+                        data_dict[row[0]] = {keys[ind]: value}
 
         return data_dict, "\n".join(explanations)
 
@@ -120,17 +120,23 @@ class UkrainianData:
         :param row_name: string - name of row as given in dataset
         :return: dictionary
         """
-        return self._data[row_name]
+        try:
+            return self._data[row_name]
+        except KeyError:
+            raise KeyError("The position you request is not available / Typo parameters")
 
     def get_column(self, col_name):
         """
         Returns all values in requested column
-        :param column_name: string - name of column as given in dataset
+        :param col_name: string - name of column as given in dataset
         :return: dictionary
         """
         column_dict = {}
-        for key in self._data.keys():
-            column_dict[key] = self._data[key][col_name]
+        try:
+            for key in self._data.keys():
+                column_dict[key] = self._data[key][col_name]
+        except KeyError:
+            raise KeyError("The position you request is not available / Typo parameters")
         return column_dict
 
     @staticmethod
@@ -184,12 +190,12 @@ class UkrainianData:
 
     @staticmethod
     def _rgb_to_hex(rgb):
-        '''
+        """
         method used to give proper colours on map
         The higher the value of parameter, the more intensive the colour is
         :param rgb: tuple
         :return: str
-        '''
+        """
         return '#%02x%02x%02x' % rgb
 
     @staticmethod
@@ -229,5 +235,6 @@ class UkrainianData:
                                                  fill_opacity=1.0))
         map_ua.add_child(fg)
         map_ua.add_child(folium.LayerControl())
+        print("Map has been generated")
         return map_ua.get_root().render()
 
