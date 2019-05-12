@@ -6,6 +6,7 @@ class UADataResearchCommandLine:
     def __init__(self, ua_data):
         """
         Class provides command line interface for the research
+        Every method of the class corresponds to a method in UkrainianData
         :param ua_data: UkrainianData instance
         """
         self.data = ua_data
@@ -111,5 +112,6 @@ class UADataResearchCommandLine:
 
 if __name__ == "__main__":
     migration_data = UkrainianData("338a8ccf-8b77-476b-b138-9bb5b7550584")
+    print("Migration data has been uploaded")
     migration_data_ui = UADataResearchCommandLine(migration_data)
     migration_data_ui.start()

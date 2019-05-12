@@ -2,15 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="91bd57d9-02ec-4756-aa60-e51c4d93f412" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/other.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/research.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test_map.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test_ukrainianData.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/example_map.html" beforeDir="false" afterPath="$PROJECT_DIR$/example_map.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/research.py" beforeDir="false" afterPath="$PROJECT_DIR$/research.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test_ukrainianData.py" beforeDir="false" afterPath="$PROJECT_DIR$/test_ukrainianData.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ukrainian_data_adt.py" beforeDir="false" afterPath="$PROJECT_DIR$/ukrainian_data_adt.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ukrainian_data_example.py" beforeDir="false" afterPath="$PROJECT_DIR$/ukrainian_data_example.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/use_example.py" beforeDir="false" afterPath="$PROJECT_DIR$/use_example.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -19,15 +15,15 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="CoverageViewManager">
-    <option name="myElementSize" value="293" />
+    <option name="myElementSize" value="369" />
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/ukrainian_data_adt.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1216">
-              <caret line="187" column="45" selection-start-line="187" selection-start-column="45" selection-end-line="187" selection-end-column="45" />
+            <state relative-caret-position="-141">
+              <caret line="103" column="52" selection-start-line="103" selection-start-column="52" selection-end-line="103" selection-end-column="52" />
               <folding>
                 <element signature="e#0#15#0" expanded="true" />
               </folding>
@@ -38,13 +34,13 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/research.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="349">
-              <caret line="82" column="53" selection-start-line="82" selection-start-column="53" selection-end-line="82" selection-end-column="53" />
+            <state relative-caret-position="-204">
+              <caret line="33" column="33" lean-forward="true" selection-start-line="33" selection-start-column="33" selection-end-line="33" selection-end-column="33" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/example_map.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="17">
@@ -84,11 +80,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/test_ukrainianData.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="34">
-              <caret line="2" lean-forward="true" selection-start-line="2" selection-end-line="2" />
+            <state relative-caret-position="68">
+              <caret line="4" column="9" lean-forward="true" selection-start-line="4" selection-start-column="9" selection-end-line="4" selection-end-column="9" />
               <folding>
                 <element signature="e#0#29#0" expanded="true" />
               </folding>
@@ -99,7 +95,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/test_map.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-8313">
+            <state>
               <folding>
                 <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
@@ -138,8 +134,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/ukrainian_data_example.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="170">
-              <caret line="10" column="82" selection-start-line="10" selection-start-column="63" selection-end-line="10" selection-end-column="82" />
+            <state relative-caret-position="102">
+              <caret line="6" column="19" lean-forward="true" selection-start-line="6" selection-start-column="19" selection-end-line="6" selection-end-column="19" />
             </state>
           </provider>
         </entry>
@@ -167,10 +163,10 @@
       <list>
         <option value="$PROJECT_DIR$/api_use_example.py" />
         <option value="$PROJECT_DIR$/use_example.py" />
-        <option value="$PROJECT_DIR$/test_ukrainianData.py" />
-        <option value="$PROJECT_DIR$/ukrainian_data_example.py" />
-        <option value="$PROJECT_DIR$/ukrainian_data_adt.py" />
         <option value="$PROJECT_DIR$/research.py" />
+        <option value="$PROJECT_DIR$/ukrainian_data_adt.py" />
+        <option value="$PROJECT_DIR$/ukrainian_data_example.py" />
+        <option value="$PROJECT_DIR$/test_ukrainianData.py" />
       </list>
     </option>
   </component>
@@ -185,7 +181,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -201,6 +196,7 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -225,7 +221,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.research">
+  <component name="RunManager" selected="Python tests.Unittests for test_ukrainianData.TestUkrainianData">
     <configuration name="research" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="Coursework" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -248,7 +244,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="ukrainian_data_adt" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="ukrainian_data_example" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="Coursework" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -261,7 +257,7 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/ukrainian_data_adt.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/ukrainian_data_example.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -285,7 +281,7 @@
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="Unittests for test_ukrainianData.TestUkrainianData.test_correlation_index" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+    <configuration name="Unittests for test_ukrainianData.TestUkrainianData.test_get_column" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
       <module name="Coursework" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -296,11 +292,11 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test_ukrainianData.TestUkrainianData.test_correlation_index&quot;" />
+      <option name="_new_target" value="&quot;test_ukrainianData.TestUkrainianData.test_get_column&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="Unittests for test_ukrainianData.TestUkrainianData.test_get_map" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+    <configuration name="Unittests for test_ukrainianData.TestUkrainianData.test_get_row" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
       <module name="Coursework" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -311,17 +307,17 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test_ukrainianData.TestUkrainianData.test_get_map&quot;" />
+      <option name="_new_target" value="&quot;test_ukrainianData.TestUkrainianData.test_get_row&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.research" />
         <item itemvalue="Python tests.Unittests for test_ukrainianData.TestUkrainianData" />
-        <item itemvalue="Python.ukrainian_data_adt" />
-        <item itemvalue="Python tests.Unittests for test_ukrainianData.TestUkrainianData.test_get_map" />
-        <item itemvalue="Python tests.Unittests for test_ukrainianData.TestUkrainianData.test_correlation_index" />
+        <item itemvalue="Python tests.Unittests for test_ukrainianData.TestUkrainianData.test_get_column" />
+        <item itemvalue="Python tests.Unittests for test_ukrainianData.TestUkrainianData.test_get_row" />
+        <item itemvalue="Python.ukrainian_data_example" />
+        <item itemvalue="Python.research" />
       </list>
     </recent_temporary>
   </component>
@@ -337,7 +333,8 @@
       <updated>1552136738200</updated>
       <workItem from="1557513045687" duration="3198000" />
       <workItem from="1557522169136" duration="1073000" />
-      <workItem from="1557523423963" duration="20583000" />
+      <workItem from="1557523423963" duration="20946000" />
+      <workItem from="1557649431548" duration="1772000" />
     </task>
     <task id="LOCAL-00001" summary="second stage">
       <created>1552158019598</created>
@@ -367,48 +364,56 @@
       <option name="project" value="LOCAL" />
       <updated>1555943783255</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="third stage">
+      <created>1557610030637</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1557610030637</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="Unittests_for_test_ukrainianData_TestUkrainianData_test_correlation_index - 2019.05.11 at 21h 09m 16s.xml">
-      <configuration name="Unittests for test_ukrainianData.TestUkrainianData.test_correlation_index" configurationId="tests" />
-    </history-entry>
-    <history-entry file="Unittests_for_test_ukrainianData_TestUkrainianData_test_correlation_index - 2019.05.11 at 21h 10m 04s.xml">
-      <configuration name="Unittests for test_ukrainianData.TestUkrainianData.test_correlation_index" configurationId="tests" />
-    </history-entry>
-    <history-entry file="Unittests_for_test_ukrainianData_TestUkrainianData - 2019.05.11 at 21h 10m 33s.xml">
+    <history-entry file="Unittests_for_test_ukrainianData_TestUkrainianData - 2019.05.12 at 11h 28m 04s.xml">
       <configuration name="Unittests for test_ukrainianData.TestUkrainianData" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_for_test_ukrainianData_TestUkrainianData_test_get_map - 2019.05.11 at 21h 15m 07s.xml">
-      <configuration name="Unittests for test_ukrainianData.TestUkrainianData.test_get_map" configurationId="tests" />
-    </history-entry>
-    <history-entry file="Unittests_for_test_ukrainianData_TestUkrainianData_test_get_map - 2019.05.11 at 21h 16m 07s.xml">
-      <configuration name="Unittests for test_ukrainianData.TestUkrainianData.test_get_map" configurationId="tests" />
-    </history-entry>
-    <history-entry file="Unittests_for_test_ukrainianData_TestUkrainianData_test_get_map - 2019.05.11 at 21h 28m 13s.xml">
-      <configuration name="Unittests for test_ukrainianData.TestUkrainianData.test_get_map" configurationId="tests" />
-    </history-entry>
-    <history-entry file="Unittests_for_test_ukrainianData_TestUkrainianData_test_get_map - 2019.05.11 at 21h 29m 15s.xml">
-      <configuration name="Unittests for test_ukrainianData.TestUkrainianData.test_get_map" configurationId="tests" />
-    </history-entry>
-    <history-entry file="Unittests_for_test_ukrainianData_TestUkrainianData - 2019.05.11 at 21h 32m 47s.xml">
+    <history-entry file="Unittests_for_test_ukrainianData_TestUkrainianData - 2019.05.12 at 11h 28m 18s.xml">
       <configuration name="Unittests for test_ukrainianData.TestUkrainianData" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_for_test_ukrainianData_TestUkrainianData - 2019.05.11 at 21h 35m 00s.xml">
+    <history-entry file="Unittests_for_test_ukrainianData_TestUkrainianData - 2019.05.12 at 11h 36m 34s.xml">
       <configuration name="Unittests for test_ukrainianData.TestUkrainianData" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_for_test_ukrainianData_TestUkrainianData - 2019.05.11 at 21h 38m 53s.xml">
+    <history-entry file="Unittests_for_test_ukrainianData_TestUkrainianData - 2019.05.12 at 11h 38m 00s.xml">
+      <configuration name="Unittests for test_ukrainianData.TestUkrainianData" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_for_test_ukrainianData_TestUkrainianData - 2019.05.12 at 11h 38m 16s.xml">
+      <configuration name="Unittests for test_ukrainianData.TestUkrainianData" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_for_test_ukrainianData_TestUkrainianData_test_get_row - 2019.05.12 at 11h 45m 12s.xml">
+      <configuration name="Unittests for test_ukrainianData.TestUkrainianData.test_get_row" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_for_test_ukrainianData_TestUkrainianData_test_get_row - 2019.05.12 at 11h 46m 04s.xml">
+      <configuration name="Unittests for test_ukrainianData.TestUkrainianData.test_get_row" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_for_test_ukrainianData_TestUkrainianData_test_get_row - 2019.05.12 at 11h 49m 46s.xml">
+      <configuration name="Unittests for test_ukrainianData.TestUkrainianData.test_get_row" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_for_test_ukrainianData_TestUkrainianData_test_get_column - 2019.05.12 at 11h 50m 52s.xml">
+      <configuration name="Unittests for test_ukrainianData.TestUkrainianData.test_get_column" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_for_test_ukrainianData_TestUkrainianData - 2019.05.12 at 11h 53m 16s.xml">
       <configuration name="Unittests for test_ukrainianData.TestUkrainianData" configurationId="tests" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="24854000" />
+    <option name="totallyTimeSpent" value="26989000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="848" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.23458445" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.23793566" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -424,12 +429,12 @@
       <window_info anchor="bottom" id="Python Console" order="10" weight="0.32914925" />
       <window_info anchor="bottom" id="Docker" order="11" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" order="12" />
-      <window_info anchor="right" id="Coverage" sideWeight="0.5041494" side_tool="true" weight="0.3297587" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="right" id="Database" order="3" />
-      <window_info anchor="right" id="SciView" order="4" sideWeight="0.49585062" weight="0.3297587" />
+      <window_info anchor="right" id="SciView" order="4" sideWeight="0.48962656" visible="true" weight="0.3297587" />
+      <window_info active="true" anchor="right" id="Coverage" order="5" sideWeight="0.5103735" side_tool="true" visible="true" weight="0.3297587" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -441,12 +446,14 @@
     <option name="LAST_COMMIT_MESSAGE" value="third stage" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/Coursework$Unittests_for_test_ukrainianData_TestUkrainianData_test_get_column.coverage" NAME="Unittests for test_ukrainianData.TestUkrainianData.test_get_column Coverage Results" MODIFIED="1557651051252" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/Coursework$use_example.coverage" NAME="use_example Coverage Results" MODIFIED="1557513068899" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/Coursework$Unittests_for_test_ukrainianData_TestUkrainianData_test_correlation_index.coverage" NAME="Unittests for test_ukrainianData.TestUkrainianData.test_correlation_index Coverage Results" MODIFIED="1557598203097" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/Coursework$Unittests_for_test_ukrainianData_TestUkrainianData_test_get_map.coverage" NAME="Unittests for test_ukrainianData.TestUkrainianData.test_get_map Coverage Results" MODIFIED="1557599335240" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/Coursework$ukrainian_data_example.coverage" NAME="ukrainian_data_example Coverage Results" MODIFIED="1557598023290" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/Coursework$Unittests_for_test_ukrainianData_TestUkrainianData.coverage" NAME="Unittests for test_ukrainianData.TestUkrainianData Coverage Results" MODIFIED="1557599928781" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/Coursework$research.coverage" NAME="research Coverage Results" MODIFIED="1557609489358" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Coursework$ukrainian_data_example.coverage" NAME="ukrainian_data_example Coverage Results" MODIFIED="1557650115789" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Coursework$Unittests_for_test_ukrainianData_TestUkrainianData.coverage" NAME="Unittests for test_ukrainianData.TestUkrainianData Coverage Results" MODIFIED="1557651191325" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Coursework$research.coverage" NAME="research Coverage Results" MODIFIED="1557649617928" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Coursework$Unittests_for_test_ukrainianData_TestUkrainianData_test_get_row.coverage" NAME="Unittests for test_ukrainianData.TestUkrainianData.test_get_row Coverage Results" MODIFIED="1557650984992" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/new.html" />
@@ -467,39 +474,19 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ukrainian_data_adt.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1216">
-          <caret line="187" column="45" selection-start-line="187" selection-start-column="45" selection-end-line="187" selection-end-column="45" />
-          <folding>
-            <element signature="e#0#15#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/ukrainian_data_uml_classes.png">
       <provider selected="true" editor-type-id="images" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/test_ukrainianData.py">
+    <entry file="file://$PROJECT_DIR$/ukrainian_data_example.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" lean-forward="true" selection-start-line="2" selection-end-line="2" />
-          <folding>
-            <element signature="e#0#29#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/research.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="349">
-          <caret line="82" column="53" selection-start-line="82" selection-start-column="53" selection-end-line="82" selection-end-column="53" />
+        <state relative-caret-position="102">
+          <caret line="6" column="19" lean-forward="true" selection-start-line="6" selection-start-column="19" selection-end-line="6" selection-end-column="19" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/test_map.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-8313">
+        <state>
           <folding>
             <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
@@ -531,13 +518,6 @@
             <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ukrainian_data_example.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" column="82" selection-start-line="10" selection-start-column="63" selection-end-line="10" selection-end-column="82" />
         </state>
       </provider>
     </entry>
@@ -575,6 +555,33 @@
             <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/research.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-204">
+          <caret line="33" column="33" lean-forward="true" selection-start-line="33" selection-start-column="33" selection-end-line="33" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ukrainian_data_adt.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-141">
+          <caret line="103" column="52" selection-start-line="103" selection-start-column="52" selection-end-line="103" selection-end-column="52" />
+          <folding>
+            <element signature="e#0#15#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test_ukrainianData.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="9" lean-forward="true" selection-start-line="4" selection-start-column="9" selection-end-line="4" selection-end-column="9" />
+          <folding>
+            <element signature="e#0#29#0" expanded="true" />
           </folding>
         </state>
       </provider>

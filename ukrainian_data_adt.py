@@ -100,7 +100,8 @@ class UkrainianData:
         Shows _data as stored in object
         :return:
         """
-        print(self._data)
+        for key, val in self._data.items():
+            print(str(key) + ": " + str(val) + "\n")
 
     def get_value(self, row_name, col_name):
         """

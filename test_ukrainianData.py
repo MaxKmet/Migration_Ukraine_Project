@@ -9,6 +9,8 @@ class TestUkrainianData(TestCase):
 
     def test_get_value(self):
         self.assertEqual(self.migration_data.get_value('м. Севастополь***', 'Число прибулих 2010'), 5266)
+        with self.assertRaises(KeyError):
+            self.migration_data.get_value('Неіснуюче місто', 'Число прибулих 2010')
 
     def test_get_row(self):
         self.assertEqual(self.migration_data.get_row("м. Севастополь***"),
@@ -24,6 +26,8 @@ class TestUkrainianData(TestCase):
                           'Число прибулих 2016': None, 'Число вибулих 2016': None,
                           'Міграційний приріст, скорочення (-) населення  2016': None, 'Число прибулих 2017': None,
                           'Число вибулих 2017': None, 'Міграційний приріст, скорочення (-) населення  2017': None})
+        with self.assertRaises(KeyError):
+            self.migration_data.get_row("Неіснуюче місто")
 
     def test_get_column(self):
         self.assertEqual(self.migration_data.get_column("Число прибулих 2010"),
@@ -35,6 +39,8 @@ class TestUkrainianData(TestCase):
                           'Тернопільська': 14217, 'Харківська': 44096, 'Херсонська': 15063, 'Хмельницька': 23065,
                           'Черкаська': 21205, 'Чернівецька': 10805, 'Чернігівська': 18286, 'м. Київ': 46592,
                           'м. Севастополь***': 5266})
+        with self.assertRaises(KeyError):
+            self.migration_data.get_column("Неіснуюча колонка")
 
     def test_correlation_index(self):
         self.assertEqual(UkrainianData.correlation_index(
@@ -48,6 +54,11 @@ class TestUkrainianData(TestCase):
     def test__rgb_to_hex(self):
         self.assertEqual(self.migration_data._rgb_to_hex((12, 125, 0)), "#0c7d00")
 
+    def test_show_data(self):
+        self.assertIsNone(self.migration_data.show_data())
+
     def test__get_needed_colour(self):
         self.assertEqual(self.migration_data._get_needed_colour(125, 150), "#2b2bff")
+
+
 
