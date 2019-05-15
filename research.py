@@ -2,17 +2,20 @@ from ukrainian_data_adt import UkrainianData
 
 
 class UADataResearchCommandLine:
+    """
+    Class provides command line interface for the research
+    Every method of the class corresponds to a method in UkrainianData
+    """
 
     def __init__(self, ua_data):
         """
-        Class provides command line interface for the research
-        Every method of the class corresponds to a method in UkrainianData
         :param ua_data: UkrainianData instance
         """
         self.data = ua_data
         self.commands = {"show_data": self.show_data, "row_names": self.row_names, "col_names": self.column_names,
                          "get_val": self.get_value, "get_row": self.get_row, "get_col": self.get_column,
-                         "cor_ind": self.correlation_index, "plot": self.show_change_plot, "map": self.get_map
+                         "cor_ind": self.correlation_index, "plot": self.show_change_plot, "map": self.get_map,
+                         "exit": self.exit
                          }
 
     def start(self):
@@ -108,6 +111,9 @@ class UADataResearchCommandLine:
                 f.write(map_str)
         except KeyError as e:
             print(e)
+
+    def exit(self):
+        exit(0)
 
 
 if __name__ == "__main__":
