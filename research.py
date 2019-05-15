@@ -15,7 +15,7 @@ class UADataResearchCommandLine:
         self.commands = {"show_data": self.show_data, "row_names": self.row_names, "col_names": self.column_names,
                          "get_val": self.get_value, "get_row": self.get_row, "get_col": self.get_column,
                          "cor_ind": self.correlation_index, "plot": self.show_change_plot, "map": self.get_map,
-                         "exit": self.exit
+                         "explain": self.explain, "exit": self.exit
                          }
 
     def start(self):
@@ -40,6 +40,9 @@ class UADataResearchCommandLine:
                 return
             else:
                 print("Wrong input\n")
+
+    def explain(self):
+        print(self.data.explanation)
 
     def row_names(self):
         print("Names of rows in dataset:")
