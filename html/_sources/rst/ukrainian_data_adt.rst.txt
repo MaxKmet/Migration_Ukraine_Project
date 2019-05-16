@@ -1,0 +1,7 @@
+ukrainian\_data\_adt module
+===========================
+
+.. automodule:: ukrainian_data_adt
+    :members:
+    :undoc-members:
+    :show-inheritance:
