@@ -1,5 +1,6 @@
 # Migration_Ukraine_Project
 Analysis of data on migration in Ukraine. My final year project aimed at learning how to collect and represent data.
+Цей проект ставить за мету дати ширшому колу дослідників доступ до порівняльної характеристики даних по Україні у зручному, інтуїтивному форматі. 
 
 Опис дослідження:
 ================
